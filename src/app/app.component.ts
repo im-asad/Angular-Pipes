@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+  array = ['Pakistan', 'India', 'USA'];
+
+  public pushItem = (item) => {
+    this.array.push(item);
+  };
 }
